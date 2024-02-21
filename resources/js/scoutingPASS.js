@@ -25,47 +25,7 @@ var options = {
 //var requiredFields = ["e", "m", "l", "t", "r", "s", "as"];
 var requiredFields = ["e", "m", "l", "r", "s", "as"];
 
-function addTimer(table, idx, name, data) {
-  var row = table.insertRow(idx);
-  var cell1 = row.insertCell(0);
-  cell1.setAttribute("colspan", 2);
-  cell1.setAttribute("style", "text-align: center;");
-  cell1.classList.add("title");
-  if (!data.hasOwnProperty('code')) {
-    cell1.innerHTML = `Error: No code specified for ${name}`;
-    return idx + 1;
-  }
-  cell1.innerHTML = name;
-  if (data.hasOwnProperty('tooltip')) {
-    cell1.setAttribute("title", data.tooltip);
-  }
 
-  idx += 1
-  row = table.insertRow(idx);
-  cell = row.insertCell(0);
-  cell.setAttribute("colspan", 2);
-  cell.setAttribute("style", "text-align: center;");
-
-  if (data.type == 'cycle') {
-    var ct = document.createElement('input');
-    ct.setAttribute("type", "hidden");
-    ct.setAttribute("id", "cycletime_" + data.code);
-    if (enableGoogleSheets && data.hasOwnProperty('gsCol')) {
-      ct.setAttribute("name", data.gsCol);
-    } else {
-      ct.setAttribute("name", data.code);
-    }
-    ct.setAttribute("value", "[]");
-    cell.appendChild(ct);
-    ct = document.createElement('input');
-    ct.setAttribute("type", "text");
-    ct.setAttribute("id", "display_" + data.code);
-    ct.setAttribute("value", "");
-    ct.setAttribute("disabled", "");
-    cell.appendChild(ct);
-    var lineBreak = document.createElement("br");
-    cell.appendChild(lineBreak);
-  }
   var button1 = document.createElement("input");
   button1.setAttribute("id", "start_" + data.code);
   button1.setAttribute("type", "button");
@@ -146,7 +106,7 @@ function addTimer(table, idx, name, data) {
   }
 
   return idx + 1;
-}
+
 
 function addCounter(table, idx, name, data) {
   var row = table.insertRow(idx);
