@@ -12,7 +12,7 @@ html, body{
     margin: 0;
     padding: 0;
     color: white;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 #prematch_table, #postmatch_table {
@@ -81,7 +81,7 @@ html, body{
     left: 0;
     top: 0;
     color: white;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     font-family : -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     text-align: justify;
 }
