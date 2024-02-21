@@ -163,14 +163,14 @@ h2{
 
 #nextButton3, #nextButton4, #nextButton5, #nextButton6, #nextButton7, #nextButton8 {
     font-family: Alexis;
-    background-color: black;
+    background-color: rgb(151, 199, 240);
     padding: 10px;
     color: white;
 }
 
 .undoButton, .flipButton {
     font-family: Alexis;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     color: white;
     margin-left: 20px;
@@ -184,7 +184,7 @@ h2{
 
 #prevButton1, #prevButton2, #prevButton3, #prevButton4, #prevButton5, #prevButton6{
     font-family: Alexis;
-    background-color: black;
+    background-color: rgb(151, 199, 240);
     padding: 10px;
     color: white;
 
