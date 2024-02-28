@@ -104,7 +104,6 @@ var config_data = `
     }
   ],
   "endgame": [
-    },
     { "name": "Final Status",
       "code": "fs",
       "type":"radio",
@@ -124,8 +123,6 @@ var config_data = `
     }
   ],
   "postmatch": [
-      "defaultValue": "x"
-    },
     { "name": "Defense Rating",
       "code": "dr",
       "type": "radio",
@@ -156,6 +153,10 @@ var config_data = `
     },
     { "name": "Tippy<br>(almost tipped over)",
       "code": "tip",
+      "type": "bool"
+    },
+    { "name": "Dropped Notes (>2)",
+      "code": "dn",
       "type": "bool"
     },
     { "name": "Comments",
