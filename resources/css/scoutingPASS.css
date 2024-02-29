@@ -125,7 +125,7 @@ h1{
 }
 
 #page2, #page4 {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 h2{
@@ -165,10 +165,12 @@ h2{
     background-color: rgb(151, 199, 240);
     text-decoration: none;
     display: inline-block;
+    color: white;
 }
 
 #nextButton3, #nextButton4, #nextButton5, #nextButton6, #nextButton7, #nextButton8 {
     font-family: roboto;
+    font-weight: bold;
     background-color: rgb(151, 199, 240);
     padding: 10px;
     color: white;
