@@ -159,7 +159,7 @@ h2{
     display: flex;
 }
 
-#nextButton1, #nextButton2, #nextButton9, #nextButton10, .clearForm, .submitForm, #displayButton, #copyButton {
+.nextButton1, .nextButton2, .nextButton9, .nextButton10, .clearForm, .submitForm, .displayButton, .copyButton {
     font-family: roboto;
     padding: 10px;
     background-color: rgb(151, 199, 240);
@@ -167,7 +167,7 @@ h2{
     display: inline-block;
 }
 
-#nextButton3, #nextButton4, #nextButton5, #nextButton6, #nextButton7, #nextButton8 {
+.nextButton3, .nextButton4, .nextButton5, .nextButton6, .nextButton7, .nextButton8 {
     font-family: roboto;
     background-color: rgb(151, 199, 240);
     padding: 10px;
