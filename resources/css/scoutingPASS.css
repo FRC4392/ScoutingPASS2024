@@ -178,6 +178,7 @@ h2{
 
 .undoButton, .flipButton {
     font-family: roboto;
+    font-weight: bold;
     background-color: rgb(151, 199, 240);
     padding: 10px;
     color: white;
@@ -188,10 +189,13 @@ h2{
     font-family: roboto;
     background-color: rgb(151, 199, 240);
     padding: 10px;
+    color: white; 
+    font-weight: bold;
 }
 
 #prevButton1, #prevButton2, #prevButton3, #prevButton4, #prevButton5, #prevButton6{
     font-family: roboto;
+    font-weight: bold;
     background-color: rgb(151, 199, 240);
     padding: 10px;
     color: white;
