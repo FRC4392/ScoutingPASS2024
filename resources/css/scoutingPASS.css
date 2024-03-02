@@ -161,7 +161,7 @@ h2{
 
 #nextButton1, #nextButton2, #nextButton9, #nextButton10, .clearForm, .submitForm, #displayButton, #copyButton {
     font-family: roboto;
-    padding: 10px;
+    padding: 12px;
     background-color: rgb(151, 199, 240);
     text-decoration: none;
     display: inline-block;
@@ -173,7 +173,7 @@ h2{
     font-family: roboto;
     font-weight: bold;
     background-color: rgb(151, 199, 240);
-    padding: 10px;
+    padding: 12px;
     color: white;
 }
 
