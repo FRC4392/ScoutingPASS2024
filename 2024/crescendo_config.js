@@ -87,10 +87,7 @@ var config_data = `
       "code": "tss",
       "type": "counter"
     },
-    { "name": "Times Amplified",
-      "code": "tta",
-      "type": "counter"
-    },
+
     { "name": "Pickup From",
       "code": "tpu",
       "type": "radio",
