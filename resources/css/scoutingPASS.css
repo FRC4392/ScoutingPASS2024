@@ -183,7 +183,7 @@ h2{
     font-family: roboto;
     font-weight: bold;
     background-color: rgb(151, 199, 240);
-    padding: 10px;
+    padding: 15px;
     color: white;
     margin-left: 20px;
 }
@@ -194,6 +194,7 @@ h2{
     padding: 20px;
     color: white; 
     font-weight: bold;
+    font-size: 18px;
 }
 
 #prevButton1, #prevButton2, #prevButton3, #prevButton4, #prevButton5, #prevButton6{
@@ -202,6 +203,7 @@ h2{
     background-color: rgb(151, 199, 240);
     padding: 20px;
     color: white;
+    font-size: 18px;
 
 }
 
