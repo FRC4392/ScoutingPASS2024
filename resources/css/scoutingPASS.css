@@ -141,16 +141,16 @@ h2{
 }
 
 .half-button-l{
-    width: 55%;
+    width: 48%;
     margin: 1vw;
-    height: 110%;
+    height: 100%;
     font: roboto;
 }
 
 .half-button-r{
     flex-grow: 1;
-    height: 110%;
-    width: 55%;
+    height: 100%;
+    width: 48%;
     margin: 1vw;
     font: roboto;
 }
@@ -161,7 +161,7 @@ h2{
 
 #nextButton1, #nextButton2, #nextButton9, #nextButton10, .clearForm, .submitForm, #displayButton, #copyButton {
     font-family: roboto;
-    padding: 12px;
+    padding: 20px;
     background-color: rgb(151, 199, 240);
     text-decoration: none;
     display: inline-block;
@@ -173,7 +173,7 @@ h2{
     font-family: roboto;
     font-weight: bold;
     background-color: rgb(151, 199, 240);
-    padding: 12px;
+    padding: 20px;
     color: white;
 }
 
