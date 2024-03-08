@@ -102,7 +102,7 @@ var config_data = `
     { "name": "Fed Notes",
     "code": "tss",
     "type": "counter"
-  },
+    },
   ],
   "endgame": [
     { "name": "Final Status",
