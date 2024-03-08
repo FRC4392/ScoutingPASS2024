@@ -87,10 +87,7 @@ var config_data = `
       "code": "tss",
       "type": "counter"
     },
-    { "name": "Fed Notes",
-      "code": "tko",
-      "type": "counter"
-    },
+
     { "name": "Pickup From",
       "code": "tpu",
       "type": "radio",
