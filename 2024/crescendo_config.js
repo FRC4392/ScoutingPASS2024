@@ -83,10 +83,10 @@ var config_data = `
       "code": "tas",
       "type": "counter"
     },
-    
+
     { "name": "Notes Fed",
       "code": "trs",
-      "type": "counter"
+      "type": "counter",
     },
 
     { "name": "Speaker Scores",
