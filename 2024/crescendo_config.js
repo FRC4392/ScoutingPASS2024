@@ -83,6 +83,11 @@ var config_data = `
       "code": "tas",
       "type": "counter"
     },
+    { "name": "Notes Fed",
+      "code": "tts",
+      "type": "counter"
+    },
+
     { "name": "Speaker Scores",
       "code": "tss",
       "type": "counter"
