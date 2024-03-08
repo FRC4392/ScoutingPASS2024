@@ -85,7 +85,7 @@ var config_data = `
     },
 
     { "name": "Notes Fed",
-      "code": "trs",
+      "code": "nfd",
       "type": "counter"
     },
 
@@ -104,7 +104,7 @@ var config_data = `
         "x": "Not Attempted"
       },
       "defaultValue": "x"
-    },
+    }
 
   ],
 
