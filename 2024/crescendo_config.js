@@ -100,10 +100,11 @@ var config_data = `
       "defaultValue": "x"
     }
     { "name": "Fed Notes",
-    "code": "tss",
-    "type": "counter"
+      "code": "tms",
+      "type": "counter"
     },
   ],
+
   "endgame": [
     { "name": "Final Status",
       "code": "fs",
