@@ -86,7 +86,7 @@ var config_data = `
 
     { "name": "Notes Fed",
       "code": "trs",
-      "type": "counter",
+      "type": "counter"
     },
 
     { "name": "Speaker Scores",
