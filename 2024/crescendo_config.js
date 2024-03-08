@@ -83,8 +83,9 @@ var config_data = `
       "code": "tas",
       "type": "counter"
     },
+    
     { "name": "Notes Fed",
-      "code": "tts",
+      "code": "trs",
       "type": "counter"
     },
 
