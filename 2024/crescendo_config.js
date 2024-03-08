@@ -100,9 +100,9 @@ var config_data = `
       "defaultValue": "x"
     }
     { "name": "Fed Notes",
-      "code": "tms",
+      "code": "abl",
       "type": "counter"
-    },
+     },
   ],
 
   "endgame": [
