@@ -99,6 +99,10 @@ var config_data = `
       },
       "defaultValue": "x"
     }
+    { "name": "Fed Notes",
+    "code": "tss",
+    "type": "counter"
+  },
   ],
   "endgame": [
     { "name": "Final Status",
