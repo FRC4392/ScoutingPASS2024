@@ -98,7 +98,7 @@ var config_data = `
         "x": "Not Attempted"
       },
       "defaultValue": "x"
-    }
+    },
     { "name": "Fed Notes",
       "code": "abl",
       "type": "counter"
