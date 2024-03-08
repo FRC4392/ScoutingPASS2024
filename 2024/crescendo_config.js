@@ -99,7 +99,10 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-
+    { "name": "Fed Notes",
+      "code": "abl",
+      "type": "counter"
+     },
   ],
 
   "endgame": [
