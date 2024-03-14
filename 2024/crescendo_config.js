@@ -116,11 +116,14 @@ var config_data = `
         "p": "Parked<br>",
         "o": "Onstage<br>",
         "s": "Onstage (Spotlit)<br>",
-        "h": "Harmony<br>",
         "a": "Attempted but failed<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"
+    },
+    { "name": "Harmony",
+      "code": "har",
+      "type": "counter"
     },
     { "name": "Note in Trap",
       "code": "nit",
