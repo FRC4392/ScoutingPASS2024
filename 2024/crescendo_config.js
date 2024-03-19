@@ -161,7 +161,14 @@ var config_data = `
     },
     { "name": "Tippy<br>(almost tipped over)",
       "code": "tip",
-      "type": "bool"
+      "type": "radio",
+      "choices": {
+        "1": "1 (not tippy)<br>",
+        "2": "2 (hops a little)<br>",
+        "3": "3 (hops and tips a lot)<br>",
+        "4": "4(tipped over completely<br>",
+      },
+      "defaultValue":"1"
     },
     { "name": "Dropped Notes (>2)",
       "code": "dn",
