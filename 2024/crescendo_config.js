@@ -163,10 +163,10 @@ var config_data = `
       "code": "tip",
       "type": "radio",
       "choices": {
-        "1": "1 (not tippy)<br>",
-        "2": "2 (hops a little)<br>",
-        "3": "3 (hops and tips a lot)<br>",
-        "4": "4(tipped over completely<br>",
+        "x": "1 (not tippy)<br>",
+        "t": "2 (hops a little)<br>",
+        "h": "3 (hops and tips a lot)<br>",
+        "o": "4(tipped over completely<br>",
       },
       "defaultValue":"1"
     },
