@@ -159,7 +159,7 @@ var config_data = `
       "code": "die",
       "type": "bool"
     },
-    { "name": "Tippy<br>(almost tipped over)",
+    { "name": "Tippy",
       "code": "tip",
       "type": "radio",
       "choices": {
