@@ -166,7 +166,7 @@ var config_data = `
         "x": "1 (not tippy)<br>",
         "t": "2 (hops a little)<br>",
         "h": "3 (hops and tips a lot)<br>",
-        "o": "4 (tipped over completely)<br>"
+        "o": "4 (tipped over completely or hops on robots)<br>"
       },
       "defaultValue":"1"
     },
