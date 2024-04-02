@@ -174,7 +174,7 @@ var config_data = `
       "code": "dn",
       "type": "bool"
     },
-    { "name": "Note in Trap",
+    { "name": "Shoot against subwoofer",
       "code": "nit",
       "type": "bool"
     },
