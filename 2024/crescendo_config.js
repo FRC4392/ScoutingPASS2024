@@ -174,7 +174,7 @@ var config_data = `
       "code": "dn",
       "type": "bool"
     },
-    { "name": "Shoot against subwoofer",
+    { "name": "Shoots against Subwoofer",
       "code": "nit",
       "type": "bool"
     },
