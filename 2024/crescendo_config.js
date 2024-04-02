@@ -147,21 +147,6 @@ var config_data = `
       "code": "die",
       "type": "bool"
     },
-    { "name": "Tippy",
-      "code": "tip",
-      "type": "radio",
-      "choices": {
-        "x": "1 (not tippy)<br>",
-        "t": "2 (hops a little)<br>",
-        "h": "3 (hops and tips a lot)<br>",
-        "o": "4 (tipped over completely or hops on robots)<br>"
-      },
-      "defaultValue":"1"
-    },
-    { "name": "Dropped Notes (>2)",
-      "code": "dn",
-      "type": "bool"
-    },
     { "name": "Shoots against Subwoofer",
       "code": "nit",
       "type": "bool"
