@@ -174,6 +174,10 @@ var config_data = `
       "code": "dn",
       "type": "bool"
     },
+    { "name": "Note in Trap",
+      "code": "nit",
+      "type": "bool"
+    },
     { "name": "Comments",
       "code": "co",
       "type": "text",
