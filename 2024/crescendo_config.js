@@ -148,7 +148,7 @@ var config_data = `
       "type": "bool"
     },
     { "name": "Shoots only against Subwoofer",
-      "code": "nit",
+      "code": "ss",
       "type": "bool"
     },
     { "name": "Comments",
