@@ -147,7 +147,7 @@ var config_data = `
       "code": "die",
       "type": "bool"
     },
-    { "name": "Shoots against Subwoofer",
+    { "name": "Shoots only against Subwoofer",
       "code": "nit",
       "type": "bool"
     },
