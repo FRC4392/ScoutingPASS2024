@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2024MICMP2",
+      "defaultValue": "2024NECMP1",
       "required": "true"
     },
     { "name": "Match Level",
